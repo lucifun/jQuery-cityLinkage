@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>cityLinkage demo</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        input {
+            margin-top: 200px;
+            margin-left: 20px;
+            outline: none;
+            border: 1px solid #000;
+            height: 20px;
+            text-indent: 5px;
+        }
+    </style>
+</head>
+<body>
+<input type="text" class="ipt1">
+<input type="text" class="ipt2">
+<input type="text" class="ipt3">
+<script src="jquery-1.12.4.js"></script>
+<script src="jquery.cityLinkage.js"></script>
+<script>
+    $.cityLinkage({
+        proIpt:  $('.ipt1'),
+        cityIpt: $('.ipt2'),
+        areaIpt: $('.ipt3')
+    })
+</script>
+</body>
+</html>
