@@ -3,7 +3,7 @@
     $.cityLinkage = function (parameter) {
         var dataList = {};
         $.ajax({
-            url: "http://passer-by.com/data_location/list.json",
+            url: "https://passer-by.com/data_location/list.json",
             type: 'GET',
             dataType: 'json',
             success: function (data) {
